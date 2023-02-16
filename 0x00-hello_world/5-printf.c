@@ -1,7 +1,10 @@
 #include <stdio.h>
+
+
 /**
- * Description: main - Prints out a string to stdout.
- * return: 0 if success.
+ * main - Entry point
+ *
+ * Return: 0 on success
  */
 int main(void)
 {
