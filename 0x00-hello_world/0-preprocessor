@@ -1,0 +1,5 @@
+#!/bin/bash
+CFILE="MAIN.C"
+CPP $CFILE -o c
+echo "Preprocessing of $CFILE is complete"
+
