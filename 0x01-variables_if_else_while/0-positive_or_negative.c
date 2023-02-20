@@ -8,14 +8,13 @@
  * if the number is less than 0: is negative, followed by a new line
  * Return: 0
  */
-
 int main(void)
 {
 	int n;
 
 	srand(time(0));/* set the seed value based on current time */
 	n = rand() % 200 - 100;/* generate random number between -100 and 100 */
-	printf("%d is ", n);
+	
 	if (n > 0)
 	{
 	    printf("%d is positive\n", n);
