@@ -16,11 +16,17 @@ int main(void)
 	srand(time(0));/* set the seed value beased on current time */
 	n = rand() % 201 - 100;/* generate random number bettween -100 and 100 */
 	if (n > 0)
+	{
 	    printf("%d is positive\n", n);
+	}
 	else if (n < 0)
+	{
 	    printf("%d is negative\n", n);
+	}
 	else
+	{
 	    printf("%d is zero\n", n);
+	}
 
 	return (0);
 }
