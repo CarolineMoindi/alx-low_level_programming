@@ -13,8 +13,8 @@ int main(void)
 {
 	int n;
 
-	srand(time(0));
-	n = rand() % RAND_MAX / 2;
+	srand(time(0));/* set the seed value based on current time */
+	n = rand() % 200 - 100;/* generate random number between -100 and 100 */
 
 	if (n > 0)
 	{
