@@ -13,9 +13,9 @@ int main(void)
 {
 	int n;
 
-	srand(time(0));/* set the seed value beased on current time */
-	n = rand() % 200 - 100;/* generate random number bettween -100 and 100 */
-	printf("Generated number: %d\n", n);
+	srand(time(0));
+	n = rand() % RAND_MAX / 2;
+
 	if (n > 0)
 	{
 	    printf("%d is positive\n", n);
