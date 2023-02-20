@@ -12,8 +12,9 @@
 int main(void)
 {
 	int n;
-	srand(98);
-	n = rand() - RAND_MAX /2;
+
+	srand(time(0));
+	n = rand() - (2147483647 + 1 - (-2147483647)) + (-2147483647);
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n < 0)
