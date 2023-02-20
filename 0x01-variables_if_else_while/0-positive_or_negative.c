@@ -13,8 +13,8 @@ int main(void)
 {
 	int n;
 
-	srand(time(0));
-	n = rand() % 201 - 100;
+	srand(time(0));/* set the seed value beased on current time */
+	n = rand() % 201 - 100;/* generate random number bettween -100 and 100 */
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
